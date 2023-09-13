@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382F482D2AAE0F660034E3AE /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F482C2AAE0F660034E3AE /* AuthenticationViewModel.swift */; };
+		382F482F2AAE1D830034E3AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 382F482E2AAE1D820034E3AE /* GoogleService-Info.plist */; };
+		382F48312AAEB0E30034E3AE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F48302AAEB0E30034E3AE /* User.swift */; };
+		382F48332AAEB9A50034E3AE /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F48322AAEB9A50034E3AE /* ImageUploader.swift */; };
+		382F48352AAEC6E90034E3AE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F48342AAEC6E90034E3AE /* AuthService.swift */; };
+		382F48372AB0B3E00034E3AE /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F48362AB0B3E00034E3AE /* ProfileCell.swift */; };
+		382F48392AB0B3ED0034E3AE /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382F48382AB0B3ED0034E3AE /* ProfileHeader.swift */; };
 		3853E1D92AA373D6000EF3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1D82AA373D6000EF3B4 /* AppDelegate.swift */; };
 		3853E1DB2AA373D6000EF3B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1DA2AA373D6000EF3B4 /* SceneDelegate.swift */; };
 		3853E1DD2AA373D6000EF3B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1DC2AA373D6000EF3B4 /* ViewController.swift */; };
@@ -14,9 +21,28 @@
 		3853E1E32AA373D6000EF3B4 /* SocialApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1E12AA373D6000EF3B4 /* SocialApp.xcdatamodeld */; };
 		3853E1E52AA373D7000EF3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3853E1E42AA373D7000EF3B4 /* Assets.xcassets */; };
 		3853E1E82AA373D7000EF3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3853E1E62AA373D7000EF3B4 /* LaunchScreen.storyboard */; };
+		3853E1F72AA37C57000EF3B4 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1F62AA37C57000EF3B4 /* MainTabBarController.swift */; };
+		3853E1F92AA3801D000EF3B4 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1F82AA3801D000EF3B4 /* FeedController.swift */; };
+		3853E1FB2AA3803F000EF3B4 /* NotificationContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1FA2AA3803F000EF3B4 /* NotificationContoller.swift */; };
+		3853E1FD2AA38051000EF3B4 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1FC2AA38051000EF3B4 /* ImageSelectorController.swift */; };
+		3853E1FF2AA3808F000EF3B4 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E1FE2AA3808F000EF3B4 /* SearchController.swift */; };
+		3853E2012AA38149000EF3B4 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E2002AA38149000EF3B4 /* ProfileController.swift */; };
+		3853E2032AA4CEA5000EF3B4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E2022AA4CEA5000EF3B4 /* Extension.swift */; };
+		3853E2052AA5FFFF000EF3B4 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E2042AA5FFFF000EF3B4 /* FeedCell.swift */; };
+		3853E2082AA6E50D000EF3B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E2072AA6E50C000EF3B4 /* LoginViewController.swift */; };
+		3853E20C2AA6E533000EF3B4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E20B2AA6E533000EF3B4 /* RegisterViewController.swift */; };
+		3853E20F2AA98772000EF3B4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853E20E2AA98772000EF3B4 /* CustomTextField.swift */; };
+		59288ED4523615D6407C6539 /* Pods_SocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A9969BB13173BD56D75046 /* Pods_SocialApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		382F482C2AAE0F660034E3AE /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		382F482E2AAE1D820034E3AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		382F48302AAEB0E30034E3AE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		382F48322AAEB9A50034E3AE /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		382F48342AAEC6E90034E3AE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		382F48362AB0B3E00034E3AE /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		382F48382AB0B3ED0034E3AE /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		3853E1D52AA373D6000EF3B4 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3853E1D82AA373D6000EF3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3853E1DA2AA373D6000EF3B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +52,21 @@
 		3853E1E42AA373D7000EF3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3853E1E72AA373D7000EF3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3853E1E92AA373D7000EF3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3853E1EF2AA37418000EF3B4 /* SocialApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialApp.entitlements; sourceTree = "<group>"; };
+		3853E1F62AA37C57000EF3B4 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		3853E1F82AA3801D000EF3B4 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		3853E1FA2AA3803F000EF3B4 /* NotificationContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationContoller.swift; sourceTree = "<group>"; };
+		3853E1FC2AA38051000EF3B4 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		3853E1FE2AA3808F000EF3B4 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		3853E2002AA38149000EF3B4 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		3853E2022AA4CEA5000EF3B4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3853E2042AA5FFFF000EF3B4 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		3853E2072AA6E50C000EF3B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3853E20B2AA6E533000EF3B4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3853E20E2AA98772000EF3B4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		508056E646076CDA6F25D62F /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
+		75A9969BB13173BD56D75046 /* Pods_SocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29EF882ED5B41733DCB2737 /* Pods-SocialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.debug.xcconfig"; path = "Target Support Files/Pods-SocialApp/Pods-SocialApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59288ED4523615D6407C6539 /* Pods_SocialApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +86,8 @@
 			children = (
 				3853E1D72AA373D6000EF3B4 /* SocialApp */,
 				3853E1D62AA373D6000EF3B4 /* Products */,
+				DE8063EBC7C92F05F9F55B18 /* Pods */,
+				6930BEC233E6DFDD353ACD22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +102,14 @@
 		3853E1D72AA373D6000EF3B4 /* SocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				3853E20D2AA9875B000EF3B4 /* Profile */,
+				3853E1F52AA37BCB000EF3B4 /* Controller */,
+				3853E1F42AA37B5D000EF3B4 /* Util */,
+				3853E1F32AA37B56000EF3B4 /* API */,
+				3853E1F22AA37B4B000EF3B4 /* View */,
+				3853E1F12AA37B3F000EF3B4 /* ViewModel */,
+				3853E1F02AA37B39000EF3B4 /* Model */,
+				3853E1EF2AA37418000EF3B4 /* SocialApp.entitlements */,
 				3853E1D82AA373D6000EF3B4 /* AppDelegate.swift */,
 				3853E1DA2AA373D6000EF3B4 /* SceneDelegate.swift */,
 				3853E1DC2AA373D6000EF3B4 /* ViewController.swift */,
@@ -65,9 +117,101 @@
 				3853E1E42AA373D7000EF3B4 /* Assets.xcassets */,
 				3853E1E62AA373D7000EF3B4 /* LaunchScreen.storyboard */,
 				3853E1E92AA373D7000EF3B4 /* Info.plist */,
+				382F482E2AAE1D820034E3AE /* GoogleService-Info.plist */,
 				3853E1E12AA373D6000EF3B4 /* SocialApp.xcdatamodeld */,
 			);
 			path = SocialApp;
+			sourceTree = "<group>";
+		};
+		3853E1F02AA37B39000EF3B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				382F48302AAEB0E30034E3AE /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3853E1F12AA37B3F000EF3B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				382F482C2AAE0F660034E3AE /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3853E1F22AA37B4B000EF3B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3853E2042AA5FFFF000EF3B4 /* FeedCell.swift */,
+				382F48362AB0B3E00034E3AE /* ProfileCell.swift */,
+				382F48382AB0B3ED0034E3AE /* ProfileHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3853E1F32AA37B56000EF3B4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				382F48322AAEB9A50034E3AE /* ImageUploader.swift */,
+				382F48342AAEC6E90034E3AE /* AuthService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3853E1F42AA37B5D000EF3B4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3853E2022AA4CEA5000EF3B4 /* Extension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3853E1F52AA37BCB000EF3B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3853E2062AA6E4DF000EF3B4 /* Authentication */,
+				3853E1F62AA37C57000EF3B4 /* MainTabBarController.swift */,
+				3853E1F82AA3801D000EF3B4 /* FeedController.swift */,
+				3853E1FA2AA3803F000EF3B4 /* NotificationContoller.swift */,
+				3853E1FC2AA38051000EF3B4 /* ImageSelectorController.swift */,
+				3853E1FE2AA3808F000EF3B4 /* SearchController.swift */,
+				3853E2002AA38149000EF3B4 /* ProfileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3853E2062AA6E4DF000EF3B4 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3853E2072AA6E50C000EF3B4 /* LoginViewController.swift */,
+				3853E20B2AA6E533000EF3B4 /* RegisterViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		3853E20D2AA9875B000EF3B4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3853E20E2AA98772000EF3B4 /* CustomTextField.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6930BEC233E6DFDD353ACD22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75A9969BB13173BD56D75046 /* Pods_SocialApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8063EBC7C92F05F9F55B18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F29EF882ED5B41733DCB2737 /* Pods-SocialApp.debug.xcconfig */,
+				508056E646076CDA6F25D62F /* Pods-SocialApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3853E1EC2AA373D7000EF3B4 /* Build configuration list for PBXNativeTarget "SocialApp" */;
 			buildPhases = (
+				FD75E3EBDD407DB080FA1F13 /* [CP] Check Pods Manifest.lock */,
 				3853E1D12AA373D6000EF3B4 /* Sources */,
 				3853E1D22AA373D6000EF3B4 /* Frameworks */,
 				3853E1D32AA373D6000EF3B4 /* Resources */,
+				F18B220535923EB05E40EA79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3853E1E82AA373D7000EF3B4 /* LaunchScreen.storyboard in Resources */,
+				382F482F2AAE1D830034E3AE /* GoogleService-Info.plist in Resources */,
 				3853E1E52AA373D7000EF3B4 /* Assets.xcassets in Resources */,
 				3853E1E02AA373D6000EF3B4 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +283,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F18B220535923EB05E40EA79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialApp/Pods-SocialApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialApp/Pods-SocialApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialApp/Pods-SocialApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD75E3EBDD407DB080FA1F13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3853E1D12AA373D6000EF3B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3853E1DD2AA373D6000EF3B4 /* ViewController.swift in Sources */,
+				3853E1F92AA3801D000EF3B4 /* FeedController.swift in Sources */,
 				3853E1D92AA373D6000EF3B4 /* AppDelegate.swift in Sources */,
+				3853E1F72AA37C57000EF3B4 /* MainTabBarController.swift in Sources */,
+				382F482D2AAE0F660034E3AE /* AuthenticationViewModel.swift in Sources */,
+				382F48332AAEB9A50034E3AE /* ImageUploader.swift in Sources */,
+				382F48352AAEC6E90034E3AE /* AuthService.swift in Sources */,
+				3853E2032AA4CEA5000EF3B4 /* Extension.swift in Sources */,
+				3853E2052AA5FFFF000EF3B4 /* FeedCell.swift in Sources */,
+				382F48372AB0B3E00034E3AE /* ProfileCell.swift in Sources */,
+				382F48312AAEB0E30034E3AE /* User.swift in Sources */,
+				3853E1FB2AA3803F000EF3B4 /* NotificationContoller.swift in Sources */,
+				3853E2012AA38149000EF3B4 /* ProfileController.swift in Sources */,
 				3853E1E32AA373D6000EF3B4 /* SocialApp.xcdatamodeld in Sources */,
+				382F48392AB0B3ED0034E3AE /* ProfileHeader.swift in Sources */,
+				3853E20C2AA6E533000EF3B4 /* RegisterViewController.swift in Sources */,
 				3853E1DB2AA373D6000EF3B4 /* SceneDelegate.swift in Sources */,
+				3853E1FF2AA3808F000EF3B4 /* SearchController.swift in Sources */,
+				3853E2082AA6E50D000EF3B4 /* LoginViewController.swift in Sources */,
+				3853E1FD2AA38051000EF3B4 /* ImageSelectorController.swift in Sources */,
+				3853E20F2AA98772000EF3B4 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +492,11 @@
 		};
 		3853E1ED2AA373D7000EF3B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29EF882ED5B41733DCB2737 /* Pods-SocialApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SocialApp/SocialApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZFX2T346K6;
@@ -299,6 +507,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +515,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hackho.SocialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,9 +526,11 @@
 		};
 		3853E1EE2AA373D7000EF3B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508056E646076CDA6F25D62F /* Pods-SocialApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SocialApp/SocialApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZFX2T346K6;
@@ -327,6 +541,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +549,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hackho.SocialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
